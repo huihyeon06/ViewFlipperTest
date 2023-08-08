@@ -19,7 +19,7 @@ class MainActivity2 : AppCompatActivity() {
         }
 
         btnStop.setOnClickListener {
-            flipper.showNext()
+            flipper.stopFlipping()
         }
     }
 }
